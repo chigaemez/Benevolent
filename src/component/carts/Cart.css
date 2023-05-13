@@ -1,0 +1,86 @@
+.cart {
+    width: 100%; 
+    color: #282c34;
+    border-radius: 13px;
+  }
+
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    color: #282c34;
+    font-size: 20px;
+    
+
+  }
+
+  .cart h3 {
+    font-size: 20px;
+    color: #ff8e1d;
+    margin: 15px 8px;
+  }
+
+  .close-btn {
+    transition: transform 0.2s linear;
+    color: #282c34;
+  }
+
+  .close-btn:hover {
+    transform: rotate(90deg);
+  }
+
+  .cart-holder h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+
+  }
+
+  .cart-head {
+    color: #282c34;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart button {
+    width: 25%;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 3px solid #282c34;
+    color: #282c34;
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    height: 50px;
+    background-color: transparent;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .cart button:hover{
+    background-color: #282c34;
+    color: white;
+  }
+
+  .clearbnt{
+    margin-top: -100px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+
+    .cart {
+        width: 90%;
+        position: absolute;
+        top: 45px;
+        border-radius: 13px;
+      }
+    
+      .cart h3 {
+        font-size: 20px;
+        color: white;
+        margin: 15px 8px;
+      }
+    
+  }

@@ -1,0 +1,50 @@
+.item-holder h1 {
+    font-size: 22px;
+    display: block;
+    margin-top: 50px;
+    color:#232525;
+  }
+
+  .item-holder .price {
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+    text-align: right;
+    font-weight: 600;
+  }
+  .item-holder img{
+    width: 10%;
+  }
+
+  .item-holder{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .increase{
+    display: flex;
+    width: 20%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .increase  button{
+    width: 30px;
+
+  }
+  .quantity{
+    margin-top: 20px;
+    font-size: 20px ;
+    font-weight: 600;
+  }
+  .clear{
+    cursor: pointer;
+    font-weight: 800;
+  }
+  .subtotal{
+    margin-top: 50px;
+    font-size: 20px ;
+    font-weight: 600;
+  }
